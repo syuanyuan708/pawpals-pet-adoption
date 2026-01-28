@@ -47,6 +47,52 @@ export const MOCK_PETS: Pet[] = [
       avatar: 'https://picsum.photos/100/100',
       isVerified: true
     }
+  },
+  {
+    id: '3',
+    name: '奶酪',
+    type: PetType.DOG,
+    breed: '柯基犬',
+    age: '1岁半',
+    gender: '公',
+    weight: '11 公斤',
+    color: '黄白色',
+    distance: '3.2 公里',
+    description: '奶酪是一只活泼可爱的柯基犬，拥有标志性的短腿和迷人的笑容。他性格开朗，喜欢和人玩耍，尤其是小朋友。奶酪已经完成了基础服从训练，会坐、卧、握手等指令，性格温和不咬人。他每天都需要适量的运动，喜欢散步和玩飞盘。由于柯基犬容易发胖，需要控制饮食和定期锻炼。',
+    tags: ['可爱', '聪明', '亲人', '已绝育'],
+    image: 'https://images.unsplash.com/photo-1612536699107-2f5e4d6b4f7c?w=800&auto=format&fit=crop',
+    isLatest: false,
+    healthInfo: ['疫苗接种齐全', '已绝育', '已植入芯片', '定期体检健康', '需要控制体重'],
+    location: '北京市',
+    shelter: {
+      name: '爱心宠物之家',
+      owner: '李女士',
+      avatar: 'https://i.pravatar.cc/150?img=5',
+      isVerified: true
+    }
+  },
+  {
+    id: '4',
+    name: '咪咪',
+    type: PetType.CAT,
+    breed: '英国短毛猫',
+    age: '2岁',
+    gender: '母',
+    weight: '4.5 公斤',
+    color: '蓝灰色',
+    distance: '1.5 公里',
+    description: '咪咪是一只优雅的英国短毛猫，拥有浓密的蓝灰色被毛和迷人的金铜色眼睛。她性格温顺安静，适合公寓饲养，不会乱叫或破坏家具。咪咪非常独立，但也喜欢和主人互动，尤其是在傍晚时分会变得特别粘人。她喜欢晒太阳和玩逗猫棒，对猫薄荷特别感兴趣。咪咪已经完全适应了猫砂盆，非常爱干净，会定期自己梳理毛发。她适合有经验的养猫家庭或者安静的单身人士。',
+    tags: ['温顺', '独立', '安静', '已绝育', '爱干净'],
+    image: 'https://images.unsplash.com/photo-1551024601-bec78aea704b?w=800&auto=format&fit=crop',
+    isLatest: true,
+    healthInfo: ['疫苗接种齐全', '已绝育', '已体内外驱虫', '定期健康检查', '无遗传病史'],
+    location: '深圳市',
+    shelter: {
+      name: '温馨猫舍',
+      owner: '张小姐',
+      avatar: 'https://i.pravatar.cc/150?img=9',
+      isVerified: true
+    }
   }
 ];
 
